@@ -1,0 +1,121 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.bigred{
+	font-size: 20px;
+	color: red;
+}
+
+/*===============================HEADER============================================*/
+/*===============================header-top============================================*/
+
+body {
+    font-family: "Roboto";
+}
+
+.header {
+    background-image: url(./image/backgraund-start.png);
+}
+
+.header-wraper {
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__top ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__top ul li {
+    margin-right: 40px;
+    font-family: "Raleway";
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+.header__top ul li a {
+    color: #ffffff;
+}
+
+.header__top ul li:last-child {
+    margin: 0;
+}
+
+/*===================================Header-center==========================================*/
+
+.header-center {
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 48px;
+    color: #D4C17F;
+    max-width: 556px;
+    margin: 0 auto;
+    padding: 200px 0 340px 0;
+    text-align: center;
+}
+
+/*===================================Header-bottom==========================================*/
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.header-bottom__geo, .header-bottom__tel{
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom__geo img, .header-bottom__tel img {
+    margin-right: 18px;
+}
+
+.header-bottom__tel a {
+    color: #ffffff;
+}
+
