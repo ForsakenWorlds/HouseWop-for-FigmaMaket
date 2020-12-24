@@ -104,6 +104,9 @@ body {
     display: flex;
     justify-content: space-between;
     color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 72px;
 }
 
 .header-bottom__geo, .header-bottom__tel{
@@ -119,3 +122,85 @@ body {
     color: #ffffff;
 }
 
+
+/*=====================================DESCRIPTION=====================================*/
+
+.description {
+    background-color:  #242B33;
+    color: #ffffff;
+}
+
+.description-wraper {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+    text-align: center;
+    line-height: 27px;
+}
+
+.description-wraper__img1 img,
+.description-wraper__img2 img,
+.description-wraper__img3 img,
+.description-wraper__img4 img {
+    margin-bottom: 20px;
+}
+
+/*=======================================APARTAMENTS======================================*/
+
+.apartament {
+    background: #242B33;
+    color: #ffffff;
+}
+.apartament-wraper {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-left: 120px;
+}
+
+.apartament-wraper h2 {
+    color: #D4C17F;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+
+.loft1 {
+    background: url(./image/apartament1img.png) no-repeat;
+    margin-right: 30px;
+    display: inline-block;
+    
+}
+
+.loft2 {
+    background: url(./image/apartament2img.png) no-repeat;
+    display: inline-block;
+}
+
+.loft3 {
+    background: url(./image/apartament3img.png) no-repeat;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.loft4 {
+    background: url(./image/apartament4img.png) no-repeat;
+    display: inline-block;
+}
+
+.loft {
+    width: 535px;
+    height: 320px;
+    position: relative;
+}
+
+.loft span {
+    font-family: "Raleway";
+    font-size: 24px;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.apartament__row1 {
+    margin-bottom: 50px;
+}
