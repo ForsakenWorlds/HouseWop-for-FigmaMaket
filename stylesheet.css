@@ -204,3 +204,222 @@ body {
 .apartament__row1 {
     margin-bottom: 50px;
 }
+
+/*===========================================LOREN==================================*/
+
+.lorem {
+    background: url(./image/background-loren.png);
+    color: #ffffff;
+}
+
+.lorem-wraper {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 180px;
+    font-size: 16px;
+}
+
+.lorem-wraper h2 {
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 36px;
+    color: #D4C17F;
+    margin-bottom: 30px;
+}
+
+.lorem-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lorem-flex__left {
+    margin-right: 30px;
+    
+}
+
+.lorem-flex__right input {
+    font-family: "Raleway";
+    color: #BEBEBE;
+    background: #FFFFFF;
+    opacity: 0.2;
+    text-align: center;
+    width: 255px;
+    height: 50px;
+}
+
+.lorem-flex__right__topinp {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.l-input {
+    margin-right: 30px;
+}
+
+.lorem-flex__right button {
+    color: #ffffff;
+    background: #D4C17F;
+    min-width: 255px;                 /*если поставить width вместо min-width, размер кнопки становится равен 155px в ширине*/
+    height: 50px;
+}
+
+.lorem-flex__right__botinp {
+    display: flex;
+}
+
+.lorem-flex__right__botinp span {
+    margin-right: 30px;
+}
+
+.lorem-flex__right__botinp span {
+    font-size: 13px;
+    color: #E7E7E7;
+}
+
+.lorem-flex__left {
+    margin-top: 20px;
+}
+
+
+/*==================================VIDEOROW======================================*/
+
+.videorow {
+    background: #242B33;
+    padding: 150px 0;
+}
+
+.videorow-wraper {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.videorow-wraper__img {
+    text-align: center;
+}
+
+/*================================GEO===============================================*/
+
+.geo {
+    background: #242B33;
+    padding: 30px 0 180px 0;
+}
+
+.geo-wraper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.geo-wraper h2 {
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 36px;
+    color: #D4C17F;
+    margin-bottom: 100px;
+}
+
+
+
+
+/*===================================QUESTION============================================*/
+
+.question {
+    background: #242B33;
+    padding: 0 0 180px 0;
+}
+
+.question-wraper {
+    max-width: 1130px;
+    margin: 0 auto;
+    
+}
+
+.question-wraper h2 {
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 36px;
+    color: #D4C17F;
+    margin-bottom: 50px;
+}
+
+.question-wraper span {
+    color: #E7E7E7;
+    text-align: center;
+}
+
+.question-wraper__flexform {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.question-wraper__flexform span {
+    max-width: 270px;
+    color: #E7E7E7;
+    font-family: "Raleway";
+}
+
+.question-wraper__flexform input {
+    width: 270px;
+    height: 50px;
+    text-align: center;
+    background: #FFFFFF;
+    opacity: 0.2;
+    color: #BEBEBE;
+    font-size: 16px;
+    font-family: "Raleway";
+    margin-right: 20px;
+}
+
+.question-wraper__flexform button {
+    width: 270px;
+    height: 50px;
+    text-align: center;
+    background: #D4C17F;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Raleway";
+}
+
+
+/*=================================FOOTER=========================================*/
+
+footer {
+    background: #242B33;
+}
+
+.footer-wraper {
+    max-width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-wraper__info ul li{
+    margin-top: 15px;
+}
+
+.footer-wraper__info ul li a {
+    color: #ffffff;
+}
+
+.footer-wraper__feedback ul {  
+    margin-top: 10px;
+}
+
+.footer-wraper__feedback ul li {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.footer-wraper__feedback ul li a {
+    color: #ffffff;
+}
+
+
+.mesenger {
+    margin-top: 20px;
+}
+.mesenger img {
+    margin-right: 20px;
+}
+
