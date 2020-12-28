@@ -50,6 +50,8 @@ body {
     font-family: "Roboto";
 }
 
+ 
+
 .header {
     background-image: url(./image/backgraund-start.png);
 }
@@ -151,6 +153,7 @@ body {
     background: #242B33;
     color: #ffffff;
 }
+
 .apartament-wraper {
     max-width: 1350px;
     margin: 0 auto;
@@ -317,6 +320,9 @@ body {
     margin-bottom: 100px;
 }
 
+.geo-wraper__table img {
+    max-width: 100%;
+}
 
 
 
@@ -423,3 +429,74 @@ footer {
     margin-right: 20px;
 }
 
+
+
+
+/*=====================================@MEDIA===============================================*/
+
+@media screen and (max-width: 1140px) {
+    .header-wraper {
+        padding: 30px;
+    }
+
+    /**/
+    .apartament-wraper {
+        text-align: center;
+    }
+
+    .loft {
+        margin-bottom: 20px;
+    }
+
+    /**/
+    .geo-wraper {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /**/
+    .question-wraper {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .question-wraper button {
+        margin-top: 20px;
+    }
+
+    .question-wraper__flexform {
+        text-align: center;
+    }
+
+    /**/
+    .footer-wraper {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .apartament-wraper {
+        text-align: center;
+    }
+
+    .loft {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 895px){
+    .lorem-wraper {
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .question-wraper__flexform form input:first-child {
+        margin-bottom: 20px;
+    }
+
+    .question-wraper__flexform form button {
+        margin-right: 20px;
+    }
+}
